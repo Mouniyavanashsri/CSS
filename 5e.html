@@ -5,11 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <style>
+    p {
+      margin: 0;
+      font-family: Arial;
+      text-align: center;
+    }
+    .new {
+      color: deeppink;
+      margin-bottom: 8px;
+    }
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    .tagline {
+      font-size: 44px;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+    .price {
+      margin-bottom: 24px;
+    }
+    .buy-buttom {
+      background-color: rgb(71, 71, 223);
+      color: white;
+      padding: 8px 16px 8px 16px;
+      border: none;
+      border-radius: 40px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
   <body>
-    <p class="New">New</p>
+    <p class="new">New</p>
     <p class="title">MacBook Pro</p>
-    <p class="tagline">Superchanged for pros.</p>
+    <p class="tagline">Supercharged for pors.</p>
     <p class="price">From $1999</p>
-    <button class="buy-button">Buy</button>
+    <div class="button-container">
+      <button class="buy-buttom">Buy</button>
+    </div>
   </body>
 </html>
