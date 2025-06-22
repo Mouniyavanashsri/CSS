@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      :root {
+        --brand-color: rgb(228, 102, 102);
+      }
+
+      div {
+        width: 100px;
+        height: 100px;
+      }
+
+      .container-1 {
+        background-color: aqua;
+      }
+
+      .container-2 {
+        background-color: blue;
+        border: 2px solid var(--brand-color);
+        padding: 4px;
+        /*box-sizing: border-box;*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-1"></div>
+    <div class="container-2"></div>
+    
+  </body>
+</html>
